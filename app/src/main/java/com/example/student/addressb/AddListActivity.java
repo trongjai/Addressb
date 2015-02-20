@@ -26,7 +26,7 @@ public class AddListActivity extends ActionBarActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_list_course);
+        setContentView(R.layout.list1);
 
         helper = new AddDBHelper(this.getApplicationContext());
         SQLiteDatabase db = helper.getReadableDatabase();
