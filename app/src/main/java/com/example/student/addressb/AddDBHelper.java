@@ -21,9 +21,9 @@ public class AddDBHelper  extends SQLiteOpenHelper {
                 "_id integer primary key autoincrement," +
                 "name text not null," +           // name
                 "last text not null," +           // lastname
-                "dob int not null," +            // date of birth
-                "mobile int not null," +         // mobile
-                "home int not null,"+           //home
+                "dob text not null," +            // date of birth
+                "mobile text not null," +         // mobile
+                "home text not null,"+           //home
                 "email text not null);";       //email
 
         db.execSQL(sql);
